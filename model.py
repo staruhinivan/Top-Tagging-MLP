@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import numpy as np
 
+
 class Model(nn.Module):
     def __init__(self, N_features, neurons_lay, fun):
         super().__init__()

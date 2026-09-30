@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import numpy as np
 
-# ==== Function === 
+# ==== Function ====
 #=== Trainable activations === 
 class Sawtooth(nn.Module):
     """

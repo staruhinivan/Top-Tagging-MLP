@@ -23,7 +23,7 @@ val_imp = torch.load(f"./{dataset_folder}/val_impulses.pt")
 val_tags = torch.load(f"./{dataset_folder}/val_tag.pt")
 
 print(f"Загружено train: {train_imp.shape}, labels: {train_tags.shape}")
-# print(f"Загружено test:  {test_imp.shape},  labels: {test_tags.shape}")
+#print(f"Загружено test:  {test_imp.shape},  labels: {test_tags.shape}")
 print(f"Загружено val:  {val_imp.shape},  labels: {val_tags.shape}")
 print("Классы: 0 = isn'n top quark | 1 = top quark\n")
 
