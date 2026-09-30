@@ -37,11 +37,11 @@ N = 1              # how many times the learning to repead, for statistic
 learning_rate = 1e-3
 weight_decay = 1e-1
 l_decay = 0.1
-num_epoches = 5                                                ### <----
+num_epoches = 50                                               ### <----
 neurons_lay=100 # number of neurons in each layer in the MLP   ### <----
-data_size = 500 # train_imp.shape[0]                           ### <----
-val_size = 100 # val_imp.shape[0]                              ### <----
-batch_size = 10 #256                                           ### <----
+data_size = train_imp.shape[0]                           ### <----
+val_size = val_imp.shape[0]                              ### <----
+batch_size = 256                                           ### <----
 
 # Split all learning on parts for saving memory
 load_model = False # Boolean. Whether to load the model, that was saved before
